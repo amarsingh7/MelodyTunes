@@ -30,6 +30,7 @@ let songs = [
     {songName: "18. Namo Namo", filePath: "songs/18.mp3", coverPath: "covers/10.jpeg"},
     {songName: "19. Soja Zara", filePath: "songs/19.mp3", coverPath: "covers/2.jpeg"},
     {songName: "20. Ram Siya Ram", filePath: "songs/1.mp3", coverPath: "covers/1.jpeg"},
+    {songName: "21. Aawara Shaam Hai ", filePath: "songs/21.mp3", coverPath: "covers/5.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -88,7 +89,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=19){
+    if(songIndex>=20){
         songIndex = 0
     }
     else{
