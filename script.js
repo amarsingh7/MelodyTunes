@@ -1,6 +1,6 @@
 console.log("Welcome to Sangeet!");
 
-// Initialize the Variables
+// Initializing Variables
 let songIndex = 0;
 let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
